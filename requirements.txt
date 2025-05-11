@@ -1,0 +1,7 @@
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+pandas>=1.0.0
+numpy>=1.19.0
+rouge>=1.0.0
+bert_score>=0.3.0
+sacrebleu>=2.0.0
