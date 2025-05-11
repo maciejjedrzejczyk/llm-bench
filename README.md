@@ -1,6 +1,6 @@
 # LLM-Bench: Local Model Evaluation Framework
 
-LLM-Bench is a comprehensive framework for evaluating local LLM models (from Ollama or LMStudio) on summarization and translation tasks using various evaluation metrics. It's inspired by the evaluation techniques demonstrated in the `evaluate.ipynb` notebook.
+LLM-Bench is a comprehensive framework for evaluating local LLM models (from Ollama or LMStudio) on summarization and translation tasks using various evaluation metrics, such as ROUGE, BERTScore, and LLM-based evaluation using another local model as evaluator.
 
 ## Features
 
@@ -11,6 +11,7 @@ LLM-Bench is a comprehensive framework for evaluating local LLM models (from Oll
   - ROUGE (if reference summary is provided)
   - BERTScore (if reference summary is provided)
   - LLM-based evaluation (using another local model as evaluator)
+  - BLEU (only for translation tasks)
 - Interactive and command-line modes
 - Save evaluation results to JSON
 
@@ -18,7 +19,7 @@ LLM-Bench is a comprehensive framework for evaluating local LLM models (from Oll
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/evaluate.git
+git clone https://github.com/maciejjedrzejczyk/llm-bench.git
 cd evaluate
 ```
 
